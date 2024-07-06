@@ -29,11 +29,17 @@
 
 /* nav Style */
 
+header{
+    background-image: url('./images/developer.png'), url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 150px 0 226px;
 }
 .nav-title{
     font-weight: 800;
@@ -55,3 +61,27 @@ nav ul li a{
     text-decoration: none;
 }
 
+/* Banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width: 400px;
+}
+.banner-greeting{
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(71, 71, 71);
+}
+.banner-name{
+    font-weight: 700;
+    color:rgb(24, 24, 24);
+    font-size: 60px;
+}
+.banner-description{
+ font-weight: 400;
+ font-size: 18px;
+ color: rgb(117, 117, 117);
+}
