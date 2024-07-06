@@ -85,3 +85,28 @@ nav ul li a{
  font-size: 18px;
  color: rgb(117, 117, 117);
 }
+
+/* About Style */
+main{
+   max-width: 1080px;
+   margin: 0 auto;
+}
+.about{
+    background-color: rgba(255, 228, 196, 0.379);
+    padding: 30px;
+    margin-top: 60px ;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+}
+.item-description{
+   color :rgb(71, 71, 71);
+   font-weight: 700;
+}
