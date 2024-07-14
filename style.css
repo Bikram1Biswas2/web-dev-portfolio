@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-.description {
+.description,.main-box p{
     font-size: 16px;
     font-weight: 400;
     color: rgb(117, 117, 117);
@@ -141,6 +141,7 @@ main {
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 130px;
     
    
 }
@@ -164,3 +165,30 @@ main {
     font-weight: 400;
     color: rgb(117, 117, 117);
 }
+
+/* Summary Of my resume style starts */
+.main-box{
+    display: flex;
+    gap: 70px;
+}
+.main-box p{
+    text-align: left;
+}
+.btn-summary {
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* Summary Of my resume style ends */
