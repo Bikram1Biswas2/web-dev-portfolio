@@ -1,25 +1,23 @@
-
-
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared style */
 
-.text-primary{
-    color:#FD6E0A;
+.text-primary {
+    color: #FD6E0A;
 }
 
-.dark2{
+.dark2 {
     color: #474747;
 }
 
-.btn-primary{
-    background-color:#FD6E0A;
+.btn-primary {
+    background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
     border: none;
@@ -27,86 +25,142 @@
     font-weight: bold;
 }
 
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    
+}
+
 /* nav Style */
 
-header{
+header {
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 150px 0 226px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
 
-ul{
+ul {
     display: flex;
     align-items: center;
-    
+
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
-    margin-right:50px;
+    margin-right: 50px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
 }
 
 /* Banner style */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 38px 0 230px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 400px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-weight: 600;
     font-size: 35px;
     color: rgb(71, 71, 71);
 }
-.banner-name{
+
+.banner-name {
     font-weight: 700;
-    color:rgb(24, 24, 24);
+    color: rgb(24, 24, 24);
     font-size: 60px;
 }
-.banner-description{
- font-weight: 400;
- font-size: 18px;
- color: rgb(117, 117, 117);
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
 }
 
 /* About Style */
-main{
-   max-width: 1080px;
-   margin: 0 auto;
-}
-.about{
-    background-color: rgba(255, 228, 196, 0.379);
-    padding: 30px;
-    margin-top: 60px ;
+main {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
-.about-items{
+.about {
+    background-color: rgba(255, 228, 196, 0.379);
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
 
-.item-title{
+.item-title {
     color: rgb(117, 117, 117);
     font-weight: 400;
 }
-.item-description{
-   color :rgb(71, 71, 71);
-   font-weight: 700;
+
+.item-description {
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+}
+
+/* skills style */
+.skills{
+    margin-top: 60px;
+}
+.skills-container {
+    display: flex;
+    gap:20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+
+.skill {
+ 
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.406);
+    background: rgb(255, 255, 255);
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.skill-heading{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+.skill-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
 }
